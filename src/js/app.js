@@ -34,7 +34,7 @@ function render(variables = {}) {
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
           <h1> ${variables.name} ${variables.lastName}</h1>
-          <h2>${variables.role}</h2>
+          <h2>${variables.role} </h2>
           <h3>${variables.city}</h3>
           <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
